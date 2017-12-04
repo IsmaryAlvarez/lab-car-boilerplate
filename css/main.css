@@ -1,1 +1,204 @@
 /* Los estilos de tu proyecto */
+/*
+  
+  Rosado texto #D2527F
+  Color Hover menú #F2F2F2
+  Color párrafo #666
+  Gris Títulos h3 #5A5A5A
+  AMARILLO FONDOS #FBBD00
+  GRIS #2F2F2F
+*/
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.first-section {
+    background-image: url(../assets/images/taxi.jpg);
+        height: 850px;
+    width: 100%;
+    background-position: center bottom;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar-inverse{
+    background-color: white;
+    border: none;
+    padding: 1%;
+    height: 100px;
+}
+.navbar-inverse .navbar-nav>li>a {
+color: #2F2F2F;
+    margin-left: 20px;
+}
+.first-section h2 {
+    color: #FFF;
+    font-size: 40px;
+    margin: 10px;
+}
+#viaje{
+margin-top: 200px;
+
+    background-color: #FBBD00;
+    padding: 30px;
+}
+#viaje p{
+    color: white;
+    font-weight: 600;
+    margin: 10px;
+}
+#good p{
+float: left;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#space{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#viaje hr{
+	width: 37%;
+	float: left;
+}
+#short{
+	width: 100%;
+}
+button{
+	clear: both;
+}
+.line {
+  border-top: 3px solid white;
+
+}
+#content{
+	border: 1px solid white;
+}
+#join{
+	height: 300px;
+}
+#joinus{
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 300px;
+    color: white;
+}
+#joinus p{
+	color: white;
+}
+.form-control{
+    background-color: #FBBD00;
+    border: 1px solid white;
+}
+
+#origen::placeholder{
+color: white;
+
+}
+
+iframe {
+    outline: 1px solid white;
+    padding: 10px;
+}
+
+
+#showApp {
+  color: #FFF;
+  font-weight: 400;
+}
+
+.app {
+  padding: 2em 0;
+  color: #5A5A5A;
+}
+
+.second-section {
+    background-color: #FBBD00;
+    height: 50%;
+    padding: 5em 0;
+    margin-top: -62px;
+}
+
+.third-section {
+background-image: url(../assets/images/conduce.jpg);
+    height: 80vh;
+    width: 100%;
+    background-position: center bottom;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.four-section{
+	  background-color: #FBBD00;
+  height: 50%;
+  padding: 5em 0; 
+}
+.title-second {
+  color: #D2527F;
+}
+
+.features {
+  padding: 0.8em;
+}
+
+.features:hover {
+  background-color: #F2F2F2;
+  cursor: pointer;
+}
+
+p {
+  padding: 0;
+  margin-bottom: 1em;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #666;
+  margin-top: 1em;
+}
+
+.third-section {
+  background-color: #F2F2F2;
+}
+
+.btn-default {
+margin:10px;
+}
+
+.btn-default:hover {
+  background-color: #C53A6D;
+  color: #FFF;
+}
+
+.btns {
+  padding-top: 5em;
+}
+
+.input-group {
+  padding-bottom: 5em;
+}
+
+footer{
+    background-color: #2F2F2F;
+    padding-top: 60px;
+    height: 730px;
+}
+footer img{
+margin: 15px 0 15px 0;
+}
+footer p{
+    color: white;
+    font-weight: 500;
+}
+#footer{
+	margin: 0;
+	padding-bottom: 30px;
+	color: white;
+}
+.fa{
+	color: white;
+	padding: 5px;
+}
+#brand{
+	    padding-top: 206px;
+}
