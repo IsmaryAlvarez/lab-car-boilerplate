@@ -13,6 +13,10 @@
   color: white;
 }
 
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+    float: left;
+}
 p{
 	color: white !important;
 }
@@ -20,6 +24,7 @@ p{
     background-image: url(../assets/images/taxi.jpg);
         height: 850px;
     width: 100%;
+
     background-position: center bottom;
     object-fit: cover;
     background-size: cover;
@@ -28,13 +33,13 @@ p{
 #driver button{
 	color: white;
 }
-.navbar-inverse{
-    background-color: white;
+.navbar-default{
+background-color: white;
     border: none;
     padding: 1%;
-    height: 100px;
+    height: 15%;
 }
-.navbar-inverse .navbar-nav>li>a {
+.navbar-default .navbar-nav>li>a {
 color: #2F2F2F !important;
     margin-left: 20px;
 }
@@ -45,14 +50,20 @@ color: #2F2F2F !important;
 }
 #viaje{
 margin-top: 200px;
-
-    background-color: #FBBD00;
-    padding: 30px;
+background-color: #FBBD00;
+padding: 30px;
 }
 #viaje p{
     color: white;
     font-weight: 600;
     margin: 10px;
+}
+#viaje img{
+height: 15px;
+    margin-left: 10px;
+}
+#viaje h4{
+	    font-size: 30px;
 }
 #good p{
 float: left;
@@ -84,7 +95,7 @@ button{
 	padding:30px;
 }
 #join{
-	height: 300px;
+    height: 380px;
 }
 #joinus{
 background-color: rgba(0, 0, 0, 0.65);
@@ -216,4 +227,72 @@ footer p{
 }
 #brand{
 	    padding-top: 206px;
+}
+#icon{
+padding-top: 365px;
+}
+@media (max-width: 767px) {
+	.navbar-default {
+    height: 120px;
+}
+	.first-section {
+height: 545px;
+}
+#viaje {
+    margin-top: 100px;
+    padding: 20px;
+}
+.second-section {
+    margin-top: -20px;
+}
+#content{
+	border:none;
+	padding: none;
+}
+#cellphone{
+	padding: 10px;
+    outline: 1px solid white;
+}
+#content p{
+	font-weight: 600;
+}
+#phone{
+
+    height: 300px;
+    width: 300px;
+}
+.second-section {
+    background-color: #FBBD00;
+    height: 470px;
+    padding:0;
+    margin-top: -20px;
+
+}
+
+
+#joinus {
+
+    margin-top: -38px;
+}
+.four-section{
+padding: 0 0 5em 0;
+}
+#rate input {
+    width: 300px;
+}
+iframe {
+    width: 120%;
+        height: 350px;
+
+    }
+  #icon{
+  	padding:0;
+  }
+  #brand {
+    padding-top: 60px;
+}
+#brand img{
+    width: 170px;
+
+}
 }
