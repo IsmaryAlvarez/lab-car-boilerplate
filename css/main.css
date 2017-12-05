@@ -22,7 +22,7 @@ p{
 }
 .first-section {
     background-image: url(../assets/images/taxi.jpg);
-        height: 850px;
+     height: 950px;
     width: 100%;
 
     background-position: center bottom;
@@ -43,13 +43,21 @@ background-color: white;
 color: #2F2F2F !important;
     margin-left: 20px;
 }
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    background-color: white;
+}
 .first-section h2 {
 
     font-size: 40px;
     margin: 10px;
 }
+#logo{
+	margin-top: 30px;
+}
+
 #viaje{
-margin-top: 200px;
+margin-top: 160px;
 background-color: #FBBD00;
 padding: 30px;
 }
@@ -103,6 +111,7 @@ background-color: rgba(0, 0, 0, 0.65);
     color: white;
     padding: 25px;
     padding-top: 60px;
+width: 419px;
 }
 #joinus p{
 	color: white;
@@ -129,6 +138,9 @@ iframe {
     height: 50%;
     padding: 5em 0;
     margin-top: -62px;
+}
+.second-section p{
+	font-size: 24px;
 }
 
 .third-section {
@@ -231,6 +243,15 @@ footer p{
 #icon{
 padding-top: 365px;
 }
+
+
+
+@media (min-width: 767px) {
+	#movil{
+		display: none;
+	}
+}
+
 @media (max-width: 767px) {
 	.navbar-default {
     height: 120px;
@@ -273,6 +294,7 @@ height: 545px;
 #joinus {
 
     margin-top: -38px;
+
 }
 .four-section{
 padding: 0 0 5em 0;
@@ -295,4 +317,10 @@ iframe {
     width: 170px;
 
 }
+
+#desktop{
+	display: none;
+}
+
+
 }
