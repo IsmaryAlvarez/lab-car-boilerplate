@@ -10,8 +10,12 @@
 */
 * {
   font-family: 'Lato', sans-serif;
+  color: white;
 }
 
+p{
+	color: white !important;
+}
 .first-section {
     background-image: url(../assets/images/taxi.jpg);
         height: 850px;
@@ -21,7 +25,9 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+#driver button{
+	color: white;
+}
 .navbar-inverse{
     background-color: white;
     border: none;
@@ -29,11 +35,11 @@
     height: 100px;
 }
 .navbar-inverse .navbar-nav>li>a {
-color: #2F2F2F;
+color: #2F2F2F !important;
     margin-left: 20px;
 }
 .first-section h2 {
-    color: #FFF;
+
     font-size: 40px;
     margin: 10px;
 }
@@ -54,8 +60,8 @@ float: left;
     padding-left: 20px;
 }
 #space{
-	margin-top: 30px;
-	margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 #viaje hr{
@@ -67,6 +73,7 @@ float: left;
 }
 button{
 	clear: both;
+	color: #2F2F2F !important;
 }
 .line {
   border-top: 3px solid white;
@@ -74,6 +81,7 @@ button{
 }
 #content{
 	border: 1px solid white;
+	padding:30px;
 }
 #join{
 	height: 300px;
@@ -104,15 +112,6 @@ iframe {
 }
 
 
-#showApp {
-  color: #FFF;
-  font-weight: 400;
-}
-
-.app {
-  padding: 2em 0;
-  color: #5A5A5A;
-}
 
 .second-section {
     background-color: #FBBD00;
@@ -132,10 +131,23 @@ background-image: url(../assets/images/conduce.jpg);
 }
 
 .four-section{
-background-color: #FBBD00;
+	background-color: #FBBD00;
     height: 50%;
     padding: 5em 0;
     margin-top: -150px;
+}
+.inp{
+    margin-top: 30px;
+}
+
+#rate button{
+margin-top: 50px;
+}
+#rate p, h3{
+	color: white;
+}
+#rate input{
+	width: 330px;
 }
 .title-second {
   color: #D2527F;
