@@ -12,7 +12,7 @@
   float: left;
 }
 .first-section {
-  background-image: url(../assets/images/taxi.jpg);
+  background-image: url(../images/taxi.jpg);
   height: 950px;
   width: 100%;
   background-position: center bottom;
@@ -40,6 +40,7 @@
 .first-section h2 {
   font-size: 40px;
   margin: 10px;
+  color: white;
 }
 #logo{
 	margin-top: 30px;
@@ -126,7 +127,7 @@ iframe {
 }
 
 .third-section {
-	background-image: url(../assets/images/conduce.jpg);
+	background-image: url(../images/conduce.jpg);
   height: 530px;
   width: 100%;
   background-position: center bottom;
@@ -279,4 +280,20 @@ padding-top: 365px;
 	#desktop{
 		display: none;
 	}
+}
+.modal-body input{
+  margin-bottom: 10px;
+}
+.modal-footer{
+  text-align: center;
+}
+#login{
+  width: 300px;
+}
+#login_username::placeholder{
+  color: white;
+}
+
+#login_password::placeholder{
+  color: white;
 }
