@@ -1,86 +1,75 @@
 /* Los estilos de tu proyecto */
 /*
-  
-  Rosado texto #D2527F
-  Color Hover menú #F2F2F2
-  Color párrafo #666
-  Gris Títulos h3 #5A5A5A
   AMARILLO FONDOS #FBBD00
   GRIS #2F2F2F
 */
 * {
   font-family: 'Lato', sans-serif;
-  color: white;
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #ddd;
-    float: left;
-}
-p{
-	color: white !important;
+  border-color: #ddd;
+  float: left;
 }
 .first-section {
-    background-image: url(../assets/images/taxi.jpg);
-     height: 950px;
-    width: 100%;
-
-    background-position: center bottom;
-    object-fit: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url(../assets/images/taxi.jpg);
+  height: 950px;
+  width: 100%;
+  background-position: center bottom;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #driver button{
 	color: white;
 }
 .navbar-default{
-background-color: white;
-    border: none;
-    padding: 1%;
-    height: 15%;
+	background-color: white;
+  border: none;
+  padding: 1%;
+  height: 15%;
 }
 .navbar-default .navbar-nav>li>a {
-color: #2F2F2F !important;
-    margin-left: 20px;
+	color: #2F2F2F !important;
+  margin-left: 20px;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border-color: #e7e7e7;
-    background-color: white;
+  border-color: #e7e7e7;
+  background-color: white;
 }
 .first-section h2 {
-
-    font-size: 40px;
-    margin: 10px;
+  font-size: 40px;
+  margin: 10px;
 }
 #logo{
 	margin-top: 30px;
 }
 
 #viaje{
-margin-top: 160px;
-background-color: #FBBD00;
-padding: 30px;
+	margin-top: 160px;
+	background-color: #FBBD00;
+	padding: 30px;
 }
 #viaje p{
-    color: white;
-    font-weight: 600;
-    margin: 10px;
+  color: white;
+  font-weight: 600;
+  margin: 10px;
 }
 #viaje img{
-height: 15px;
-    margin-left: 10px;
+	height: 15px;
+  margin-left: 10px;
 }
 #viaje h4{
-	    font-size: 30px;
+	font-size: 30px;
 }
 #good p{
-float: left;
-    padding-right: 20px;
-    padding-left: 20px;
+	float: left;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 #space{
-    margin-top: 40px;
-    margin-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
 
 #viaje hr{
@@ -100,71 +89,64 @@ button{
 }
 #content{
 	border: 1px solid white;
-	padding:30px;
+
 }
 #join{
-    height: 380px;
+  height: 380px;
 }
 #joinus{
-background-color: rgba(0, 0, 0, 0.65);
-    height: 380px;
-    color: white;
-    padding: 25px;
-    padding-top: 60px;
-width: 419px;
-}
-#joinus p{
-	color: white;
+	background-color: rgba(0, 0, 0, 0.65);
+  height: 380px;
+  color: white;
+  padding: 25px;
+  padding-top: 60px;
 }
 .form-control{
-    background-color: #FBBD00;
-    border: 1px solid white;
+  background-color: #FBBD00;
+  border: 1px solid white;
 }
 
 #origen::placeholder{
-color: white;
-
+	color: white;
 }
 
 iframe {
-    outline: 1px solid white;
-    padding: 10px;
+  outline: 1px solid white;
+  padding: 10px;
 }
 
-
-
 .second-section {
-    background-color: #FBBD00;
-    height: 50%;
-    padding: 5em 0;
-    margin-top: -62px;
+  background-color: #FBBD00;
+  height: 50%;
+  padding: 5em 0;
+  margin-top: -62px;
 }
 .second-section p{
 	font-size: 24px;
 }
 
 .third-section {
-background-image: url(../assets/images/conduce.jpg);
-    height: 530px;
-    width: 100%;
-    background-position: center bottom;
-    object-fit: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
+	background-image: url(../assets/images/conduce.jpg);
+  height: 530px;
+  width: 100%;
+  background-position: center bottom;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .four-section{
 	background-color: #FBBD00;
-    height: 50%;
-    padding: 5em 0;
-    margin-top: -150px;
+  height: 50%;
+  padding: 5em 0;
+  margin-top: -150px;
 }
 .inp{
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 #rate button{
-margin-top: 50px;
+	margin-top: 50px;
 }
 #rate p, h3{
 	color: white;
@@ -172,26 +154,13 @@ margin-top: 50px;
 #rate input{
 	width: 330px;
 }
-.title-second {
-  color: #D2527F;
-}
-
-.features {
-  padding: 0.8em;
-}
-
-.features:hover {
-  background-color: #F2F2F2;
-  cursor: pointer;
-}
-
 p {
   padding: 0;
   margin-bottom: 1em;
   font-weight: 300;
   font-size: 18px;
   line-height: 28px;
-  color: #666;
+  color: white;
   margin-top: 1em;
 }
 
@@ -244,83 +213,70 @@ footer p{
 padding-top: 365px;
 }
 
-
-
-@media (min-width: 767px) {
+@media (min-width: 576px) {
 	#movil{
 		display: none;
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 576px) {
 	.navbar-default {
     height: 120px;
-}
+	}
 	.first-section {
-height: 545px;
-}
-#viaje {
-    margin-top: 100px;
-    padding: 20px;
-}
-.second-section {
+		height: 545px;
+	}
+	#viaje {
+  	margin-top: 100px;
+  	padding: 20px;
+	}
+	.second-section {
     margin-top: -20px;
-}
-#content{
-	border:none;
-	padding: none;
-}
-#cellphone{
-	padding: 10px;
+	}
+	#content{
+		border:none;
+		padding: none;
+	}
+	#cellphone{
+		padding: 10px;
     outline: 1px solid white;
-}
-#content p{
-	font-weight: 600;
-}
-#phone{
-
+	}
+	#content p{
+		font-weight: 600;
+	}
+	#phone{
     height: 300px;
     width: 300px;
-}
-.second-section {
+	}
+	.second-section {
     background-color: #FBBD00;
     height: 470px;
     padding:0;
     margin-top: -20px;
-
-}
-
-
-#joinus {
-
-    margin-top: -38px;
-
-}
-.four-section{
-padding: 0 0 5em 0;
-}
-#rate input {
+	}
+	#joinus {
+    margin-top: -62px;
+	}
+	.four-section{
+		padding: 0 0 5em 0;
+	}
+	#rate input {
     width: 300px;
-}
-iframe {
+	}
+	iframe {
     width: 120%;
-        height: 350px;
-
-    }
+    height: 350px;
+  }
   #icon{
   	padding:0;
   }
   #brand {
     padding-top: 60px;
-}
-#brand img{
+	}
+	#brand img{
     width: 170px;
-
-}
-
-#desktop{
-	display: none;
-}
-
-
+	}
+	#desktop{
+		display: none;
+	}
 }
