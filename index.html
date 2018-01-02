@@ -1,15 +1,32 @@
-<!-- Suelta tus manos y tu mente para solucionar este reto -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-	<title>Lab<ar</title>
+	<title>SpotyFood</title>
 	
 	<!-- Icono de Pestaña -->
 
-	<link rel="shortcut icon" type="image/png" href="assets/images/235844.png">
+	<link rel="shortcut icon" type="image/png" href="assets/images/imagen-uno.png">
+
+	<!-- Link de Fuentes -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+
+	<!-- Link Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Link de CSS -->
+	<link rel="stylesheet" href="assets/css/main.css">
+
+	<!-- Iconos -->
+	<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+
+	<!-- Script de Jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
 
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
 
@@ -22,288 +39,98 @@
 </head>
 
 <body>
-	<!-- NAVBAR -->
-
-	<section class="first-section">
-		<nav class="navbar navbar-default" role="navigation">
-			<div class="container">
-
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse"> <!-- este le da el menú hamburguesa -->
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<div class="col-lg-3 col-md-3 col-sm-8 col-xs-8 text-center" id="logo">
-						<img src="assets/images/logoForma.png" alt="">
-					</div>
-				</div>
-				
-
-				<div class="navbar-collapse collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#Viaja">Viaja</a></li>
-						<li><a href="#Conduce">Conduce</a></li>
-
-						<li><a href="#Inicia Sesion" data-toggle="modal" data-target="#login-modal">Inicia Sesión</a></li>
-					</ul>
-				</div>
-
-			</div>
-		</nav>
-
-
-
-
-
-		<div class="col-lg-5 col-md-5 hidden-xs hidden-sm col-md-offset-7" id="viaje">
-
-			<h2>Distruta del viaje</h2>
-			<h2>Eres dueño de tu tiempo</h2>
-			<div id="space">
-				<p>Viaja con  <img src="assets/images/logoBlanco.png" alt=""></p>
-			</div>
-			<button type="button" class="btn btn-default">REGÍSTRATE</button>
-
-
-			<div class="row" id="short">
-				<div class="col-lg-12" id="good">
-					<hr> <p>O bien</p><hr>
-
-				</div>
-				<button type="button" class="btn btn-default">Conviértete en un conductor</button>
-			</div>
-		</div>
-		<div class="col-sm-9 col-xs-9 hidden-lg hidden-md col-sm-offset-3 col-xs-offset-3" id="viaje">
-
-			<h4>Comienza a viajar con <span><img src="assets/images/logoBlanco.png" alt=""></span></h4>
-
-
-			<button type="button" class="btn btn-default">Descarga el app</button>
-		</div>
+	<!-- Splash Image -->
+	<div id="overlay">
+		<div id="overlay-content"><img src="assets/images/imagen-uno.png" alt="logo blanco">				<div id="circle"></div>
 	</div>
+</div>
+<!-- NAVBAR -->
 
+<section class="first-section">
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container">
 
-</section>
-
-<!-- Segunda sección -->
-<section class="second-section">
-	<div class="row">
-		<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12" id="content">
-			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center" id="cellphone">
-				<div class="hidden-xs hidden-sm col-lg-12 col-md-12 text-center">
-					<img src="assets/images/iPhone6Plus.png" alt="" id="phone">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse"> <!-- este le da el menú hamburguesa -->
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="col-lg-3 col-md-3 col-sm-8 col-xs-8 text-center" id="logo">
+					<p>SpotyFood</p>
 				</div>
-				<div class="hidden-lg hidden-md col-sm-12 col-xs-12 text-center">
-					<p>La nueva app</p>
-					<img src="assets/images/iPhone6Plus.png" alt="" id="phone">
-				</div>
 			</div>
 
-			<div class="hidden-lg hidden-md col-sm-12 col-xs-12">
-				<p>Llega a tu destino aún más rápido</p>
+
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#Viaja">Perfil</a></li>
+					<li role="presentation" class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Recetas <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="">- Creadas</a></li>
+							<li><a href="">- Guardadas</a></li>
+						</ul>
+					</li>
+					<li role="presentation" class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Restaurantes <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="">- Sugerencias</a></li>
+							<li><a href="">- Guardadas</a></li>
+						</ul>
+					</li>
+
+				</ul>
 			</div>
 
-			<div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
-				<h3>Descarga la nueva app</h3>
-				<p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rapido.</p>
-				<p>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a donde ir.</p>
-			</div>
 		</div>
-	</div>
-</section>
-
-<!-- Tercera sección -->
-<section class="third-section">
-	<div class="row" id="join">
-
-		<div class="col-lg-4 col-lg-offset-8 col-md-4 col-md-offset-8 col-sm-12 col-xs-12"  id="joinus">
-
-			<h3>Cuando Quieras</h3>
-			<p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
-			<!-- Indica que hay que tener cuidado con la acción asociada al botón -->
-			<button type="button" class="btn btn-warning" id="driver">Conviértete en Conductor</button>
-		</div>
-	</div>
-
-</section>
-
-<!-- Cuarta sección -->
-<section class="four-section" id="rate">
+	</nav>
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="space">
-				<h3>Tarifas</h3>
-				<p>Consulta las tarifas de LabCar aquí</p>
-
-
-				<div class="row inp">
-					<div class="col-md-1 col-lg-1 col-sm-1 col-xs-1 text-center">
-						<span><img src="assets/images/shape.png" alt=""></span>
+		
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 text-center">
+				<div class="thumbnail">
+				<img src="assets/images/enBadgeWebGeneric.png" alt="...">
+					<div class="caption">
+						<h3>Thumbnail label</h3>
+						<p>...</p>
+						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
 					</div>
-					<div class="col-md-11 col-lg-11 col-sm-11 col-xs-11">
-						<input id="origen" type="text" class="input form-control" placeholder="Ingrese su punto de partida" autocomplete="off">
-					</div>
-
 				</div>
-
-
-				<div class="row inp">
-					<div class="col-md-1 col-lg-1 col-sm-1 col-xs-1 text-center">
-						<span><img src="assets/images/shape2.png" alt=""></span>
-					</div>
-					<div class="col-md-11 col-lg-11 col-sm-11 col-xs-11">
-						<input id="origen" type="text" class="input form-control" placeholder="Ingrese su destino" autocomplete="off">
-					</div> 	
-				</div>
-
-				<div class="row text-center">
-					<button type="button" class="btn btn-default">¡TRAZAR RUTA!</button>
-				</div>
-
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm-10 col-xs-10 text-center" >
-
-				<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13320.939744860902!2d-70.63952465!3d-33.4171188!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1512387336593 " width="450" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-
 			</div>
 
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 text-center">
+				<div class="thumbnail">
+				<img src="assets/images/enBadgeWebGeneric.png" alt="...">
+					<div class="caption">
+						<h3>Thumbnail label</h3>
+						<p>...</p>
+						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 text-center">
+				<div class="thumbnail">
+				<img src="assets/images/enBadgeWebGeneric.png" alt="...">
+					<div class="caption">
+						<h3>Thumbnail label</h3>
+						<p>...</p>
+						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
-</section>
+	<!-- Script circulo de progreso-->
+	<script src="assets/jquery-circle-progress-1.2.2/dist/circle-progress.js"></script>
 
-<!-- Footer -->
-<footer>
-	<div class="container">
-		<img src="assets/images/logoBlanco.png" alt="">
-		<hr>
-		<div class="row" id="desktop">
-			<div class="col-lg-3 col-md-3" id="icon">
-				<i class="fa fa-facebook" aria-hidden="true"></i>
-				<i class="fa fa-twitter" aria-hidden="true"></i>
-				<i class="fa fa-linkedin" aria-hidden="true"></i>
-				<i class="fa fa-apple" aria-hidden="true"></i>
-				<i class="fa fa-play" aria-hidden="true"></i>
-			</div>
-			<div class="col-lg-3 col-md-3">
-				<p>Viaja</p>
-				<p>Conduce</p>
-				<p>Ciudades</p>
-				<p>Ciudades</p>
-				<p>Entregas</p>
-				<p>Cómo Funciona?</p>
-				<p>Paises</p>
-				<p>Seguridad</p>
-			</div>
-			<div class="col-lg-3 col-md-3">
-				<p>Oportunidades</p>
-				<p>Nuestra Historia</p>
-				<p>API de LabCar</p>
-				<p>Eventos</p>
-				<p>Desarrolladores</p>
-				<p>Servicios</p>
-				<p>Laboratoria</p>
-				<p>Coders</p>
-			</div>
-			<div class="col-lg-3 col-md-3" id="brand">
-				
-				<img src="assets/images/enBadgeWebGeneric.png" alt="">
-				<img src="assets/images/appstore.png" alt="">
-			</div>
-		</div>
+	<!-- Script bootstrap-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-		<div class="row" id="movil">
-			<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 col-xs-push-6 col-sm-push-6" id="icon">
-				<i class="fa fa-facebook" aria-hidden="true"></i>
-				<i class="fa fa-twitter" aria-hidden="true"></i>
-				<i class="fa fa-linkedin" aria-hidden="true"></i>
-				<i class="fa fa-apple" aria-hidden="true"></i>
-				<i class="fa fa-play" aria-hidden="true"></i>
-			</div>
-			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-xs-pull-4 col-sm-pull-4">
-				<p>Viaja</p>
-				<p>Conduce</p>
-				<p>Ciudades</p>
-				<p>Ciudades</p>
-				<p>Entregas</p>
-				<p>Cómo Funciona?</p>
-				<p>Paises</p>
-				<p>Seguridad</p>
-			</div>
-			<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
-				<p>Oportunidades</p>
-				<p>Nuestra Historia</p>
-				<p>API de LabCar</p>
-				<p>Eventos</p>
-				<p>Desarrolladores</p>
-				<p>Servicios</p>
-				<p>Laboratoria</p>
-				<p>Coders</p>
-			</div>
-			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-xs-pull-2 col-sm-pull-2" id="brand">
-				
-				<img src="assets/images/enBadgeWebGeneric.png" alt="">
-				<img src="assets/images/appstore.png" alt="">
-			</div>
-		</div>
-
-		<div class="col-lg-12">
-			<hr>
-			<p id="footer"> &copy; 2017 LabCar technologies Inc.</p>
-		</div>
-	</div>
-
-
-	
-</footer>
-
-<!-- Modal -->
-	<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-    	<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header" align="center">
-					<img class="img-circle" id="img_logo" src="assets/images/User-icon.png">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-					</button>
-				</div>
-                
-                <!-- Begin # DIV Form -->
-                <div id="div-forms">
-                
-                    <!-- Begin # Login Form -->
-                    <form id="login-form">
-		                <div class="modal-body">
-
-				    		<input id="login_username" class="form-control" type="text" placeholder="Username" required>
-
-				    		<input id="login_password" class="form-control" type="password" placeholder="Password" required>
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox"> Recuérdame
-                                </label>
-                            </div>
-        		    	</div>
-				        <div class="modal-footer">
-                            <div>
-                                <button type="submit" class="btn btn-warning" id="login">Login</button>
-                            </div>
-				    	    <div>
-                                <button id="login_lost_btn" type="button" class="btn btn-link">Olvidaste tu cuenta?</button>
-                                <button id="login_register_btn" type="button" class="btn btn-link">Registrar</button>
-                            </div>
-				        </div>
-                    </form>
-                    <!-- End # Login Form -->
-                
-			</div>
-		</div>
-	</div>
-<!-- Scripts -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- Script js-->
+	<script src="assets/js/app.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 </body>
 </html>
